@@ -17,7 +17,7 @@ class LightSkill(MycroftSkill):
     #   'Switch off'
     @intent_handler(IntentBuilder("").require("Switch").require("State").require("What"))
     def handle_light_state(self, message):
-        self.speak_dialog("turning.lights", data={"state": message.data["State"])
+        self.speak_dialog("turning.lights", data={"state": message.data["State"]})
 
     # The "stop" method defines what Mycroft does when told to stop during
     # the skill's execution. In this case, since the skill's functionality
