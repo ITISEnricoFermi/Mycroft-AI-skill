@@ -50,6 +50,7 @@ class TemplateSkill(MycroftSkill):
             self.count -= 1
         self.speak_dialog("count.is.now", data={"count": self.count})
 
+    @intent_handler(IntentBuilder("").require("Today").require("Happen"))
     def handle_today(self, message):
         if message.data["Happen"] == "born":
             self.speak_dialog("test", data={"this": "this"})
