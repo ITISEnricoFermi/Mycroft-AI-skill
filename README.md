@@ -1,19 +1,11 @@
-To submit your skill, replace this file with text from 
-https://rawgit.com/MycroftAI/mycroft-skills/master/meta_editor.html
-
-
-## YOUR SKILL NAME
-One line description of the skill
+## Mycroft Fermi IoT skill
+Simple microftai skill
 
 ## Description 
-A more verbose description, including any extra instructions or
-information that didn't fit in the one line.
+Reprehenderit proident sunt ea non occaecat veniam. Ipsum sit cupidatat anim ea. Incididunt aute consequat eu incididunt magna ut mollit cupidatat culpa. Exercitation proident sunt in Lorem incididunt laboris magna. Quis et est ex ut sint velit est quis dolore cillum. Veniam fugiat velit amet nulla quis sint aliqua et ad eu duis magna nostrud elit. Commodo enim laboris Lorem enim reprehenderit ex excepteur dolore deserunt.
 
 ## Examples 
-* "Hello world"
-* "Greetings planet earth"
-* "Count up"
-* "Count down"
-
-## Credits 
-Your name
+* "Turn on the lights"
+* "Switch on the light"
+* "Turn off the light"
+* "Switch off the lights"
